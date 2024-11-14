@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #efeffa;
+    background-image: radial-gradient(circle at top right, rgba(255, 255, 214, 0.777),  transparent 15%), radial-gradient(circle at top left, rgba(204, 252, 255, 0.786),transparent 15%), radial-gradient(circle at bottom left, rgba(253, 204, 255, 0.786),transparent 15%), radial-gradient(circle at bottom right, rgba(255, 204, 204, 0.786),transparent 15%);
+    height:100vh; /* Full viewport height */
+    background-repeat: no-repeat; /* Prevent repetition */
+}
+
+h3 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#message {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
